@@ -1,0 +1,6 @@
+This logo was generated using the following font:
+
+- Font Title: Noto Serif Kannada
+- Font Author: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/kannada)
+- Font Source: http://fonts.gstatic.com/s/notoserifkannada/v27/v6-8GZHLJFKIhClqUYqXDiWqpxQxWSPoW6bz-l4hGHiNgcYDceRJ71svgcI.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
