@@ -516,6 +516,7 @@ strong:hover {
   .modo-noturno {
     background-image: url("img/imagemCapa/Captura de tela 2024-01-05 201841.png") !important;
     background-attachment: fixed !important;
+    background-size: cover;
   }
 
   .texto-noturno{
