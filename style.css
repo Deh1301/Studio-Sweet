@@ -355,7 +355,15 @@ strong:hover {
 }
 
 @media (max-width: 700px) {
-  
+  body{
+    background-image: url(img/pexels-eberhard-grossgasteiger-2310713.jpg);
+  }
+
+  header{
+    padding: 5px;
+  }
+
+
   header:hover {
     padding: 5px;
   }
@@ -513,7 +521,7 @@ strong:hover {
 
   .modo-claro{
 
-    background-image: url(Portifolio/img/pexels-eberhard-grossgasteiger-2310713.jpg) !important;
+    background-image: url(img/pexels-eberhard-grossgasteiger-2310713.jpg) !important;
     background-attachment: fixed !important;
 
   }
