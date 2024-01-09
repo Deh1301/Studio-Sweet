@@ -89,6 +89,7 @@ document.addEventListener("DOMContentLoaded", () => {
     projeto.style.fontWeight = 'bold'
     corpo.classList.add('modo-noturno')
     frase.classList.add('texto-noturno')
+    corpo.classList.remove('modo-claro')
 
 
     Imagens.forEach((img)=>{
@@ -115,6 +116,7 @@ document.addEventListener("DOMContentLoaded", () => {
     cabecalhoPrj.style.backgroundColor = "rgba(250, 209, 234, 0.971)";
     titulo.style.color = 'black'
     corpo.classList.remove('modo-noturno');
+    corpo.classList.add('modo-claro')
     Imagens.forEach((img)=>{
       img.addEventListener('mouseover',()=>{
         img.style.transition = '1.5s'
