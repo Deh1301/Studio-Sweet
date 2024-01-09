@@ -355,6 +355,9 @@ strong:hover {
 }
 
 @media (max-width: 700px) {
+  body{
+    background-attachment: fixed;
+  }
   header:hover {
     padding: 5px;
   }
@@ -512,6 +515,7 @@ strong:hover {
 
   .modo-noturno {
     background-image: url("img/imagemCapa/Captura de tela 2024-01-05 201841.png") !important;
+    background-attachment: fixed !important;
   }
 
   .texto-noturno{
