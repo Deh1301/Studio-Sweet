@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const projeto = document.querySelector('#projetos')
   const botaoX = document.querySelector('.botaox')
   const txtprj = document.querySelector('#textoProjeto')
-  const txtRodape = document.querySelector('#rodape')
+  
 
   menuStudio.addEventListener('click', ()=>{
     menuStudio.style.display= 'none'
@@ -70,6 +70,7 @@ document.addEventListener("DOMContentLoaded", () => {
   
 
   black.addEventListener("click", () => {
+    
     corpo.style.transition = "2s";
     corpo.style.backgroundImage = "url(img/pexels-matej-1158394.jpg)";
     corpo.style.backgroundAttachment = "fixed";
@@ -115,8 +116,9 @@ document.addEventListener("DOMContentLoaded", () => {
     cabecalho.style.backgroundColor = "rgba(250, 209, 234, 0.971)";
     cabecalhoPrj.style.backgroundColor = "rgba(250, 209, 234, 0.971)";
     titulo.style.color = 'black'
-    corpo.classList.remove('modo-noturno');
     corpo.classList.add('modo-claro')
+    corpo.classList.remove('modo-noturno');
+    
     Imagens.forEach((img)=>{
       img.addEventListener('mouseover',()=>{
         img.style.transition = '1.5s'
