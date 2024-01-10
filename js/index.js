@@ -150,7 +150,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     img.addEventListener("mouseout", () => {
-      img.style.borderRadius = "0 500px";
+      img.style.borderRadius = "500px 0";
       
     });
 

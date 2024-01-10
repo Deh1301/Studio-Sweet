@@ -360,12 +360,12 @@ strong:hover {
   }
 
   header{
-    padding: 5px;
+    padding: 15px;
   }
 
 
   header:hover {
-    padding: 5px;
+    padding: 15px;
   }
 
   h1 {
@@ -380,7 +380,7 @@ strong:hover {
 
   .projetos {
     margin-right: 0px;
-    margin-top: -20px;
+    margin-top: -15px;
   }
 
   .botaox {
